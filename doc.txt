@@ -1,0 +1,26 @@
+https://app.clickup.com/9006118354/v/dc/8ccwxej-2715
+
+Inizializzare un nuovo progetto Node.js con Yarn:
+
+yarn init -y
+
+Installare le dipendenze necessarie per il progetto:
+
+yarn add typescript ts-node axios amazon-cognito-identity-js @types/node
+
+
+Modificare nel codice i campi :
+
+Se utilizzi un altro utente o altre credenziali, dovrai modificare i seguenti valori nello script:
+UserPoolId: ID del tuo pool utente Cognito.
+ClientId: ID del client applicazione nel pool utente Cognito.
+Username: Username dell'utente.
+Password: Password dell'utente.
+Variabili GraphQL: group e passcode per la query GraphQL.
+La tua query GraphQL 
+
+
+Lanciare lo script
+
+time node ddos.ts
+
